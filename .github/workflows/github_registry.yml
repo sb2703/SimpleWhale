@@ -3,9 +3,6 @@ name: CI to Docker Hub
 on:
   push:
     branches: [ main ]
-
-on:
-  push:
     tags:
       - "v*.*.*"
 
